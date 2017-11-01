@@ -1,0 +1,98 @@
+.rounded-x {
+    border-radius: 50% !important;
+}
+
+.bg-light-grey {
+    padding: 20px 20px 5px 20px;
+    margin-bottom: 10px;
+    background: #efefef;
+    border: solid 1px #e5e5e5;
+}
+
+.bg-light-green {
+    background: #e4f4d0;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.timeline {
+  padding: 20px;
+  height: auto;
+  overflow-y: auto;
+}
+
+.twit {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.twit-avatar {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #e7eaec;
+  border-radius: 50% !important;
+  margin-top: 11px;
+}
+
+.twit.left .twit-avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.twit.right .twit-avatar {
+  float: right;
+  margin-left: 10px;
+}
+
+.message {
+  text-align: left;
+  display: block;
+  padding: 20px 0px 10px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.message-user {
+	margin-top: -10px;
+	margin-bottom: 0px;
+	font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.message-content {
+  display: block;
+}
+
+.timeline .twit.left .message {
+  text-align: left;
+  margin-left: 55px;
+}
+
+.timeline .twit.right .message {
+  text-align: right;
+  margin-right: 55px;
+}
+
+.form-control.input-tall {
+  height: 50px;
+}
+
+.friend-avatar {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #e7eaec;
+  border-radius: 50% !important;
+}
+
+.friend-name {
+	font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
